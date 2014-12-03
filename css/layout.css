@@ -61,12 +61,12 @@ font-size: 15px
 
 
 a:link { 
-color: #24333e;
+color: #a2acb1;
 font-family: 'Open Sans', 'Arial', sans-serif;
 font-weight: 300;
-font-size: 30;
-text-decoration: none
-
+font-size: 12px;
+text-decoration: none;
+margin-right:8px;
  }
 
 
@@ -91,6 +91,12 @@ margin:0;
 
 h4 {
 font-family: 'Raleway', 'Arial', sans-serif;
+margin :0;
+color:#24333e;
+font-family: 'Open Sans', 'Arial', sans-serif;
+font-weight: 600;
+font-size: 18px;
+
 }
 
 aside p {
@@ -177,18 +183,25 @@ float:left;
 }
 
 #resume {
-margin-top:-7px;
-padding:25px 40px 30px 40px;
-float:right;
+position: absolute;
+right:50px;
+top:0;
+width: 75px;
+text-align: center;
+height: 123px;
+line-height: 75px;
+padding-left: 0;
 background-color: #1a5076;
-	-ms-transform: rotate(270deg); /* IE 9 */
-   	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
-
 }
 
 #resume h3 {
-margin:0;
+	position: relative;
+	top: 30px;
+	margin:0;
+	text-transform: uppercase;
+	-ms-transform: rotate(270deg); /* IE 9 */
+	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	transform: rotate(270deg);	
 }
 
 .iconr {
@@ -197,13 +210,25 @@ height: 33px;
 width: 75px;
 background-position: -626px -35px;
 float:right;
+position: absolute;
+top: 123px;
 }
 
+.share h4  {
+display:inline-block;
+
+}
 
 .share{
-float:left;
+	line-height: 31px;
+	border-top: 1px solid #cedbe2;
+	border-bottom: 1px solid #cedbe2;
+	padding: 5px 0;
+
 
 }
+
+
 
 .icon2 {
 height: 181px;
@@ -217,11 +242,9 @@ padding: 50px 0px 35px 57px;
 }
 
 
-.article {
-width:100%;
-float:left;
+article{
+	float:left;
 }
-
 
 .article1 {
 margin:10px 70px;
@@ -238,4 +261,28 @@ float:left;
 
 section{
 width:100%;
+}
+
+.imgshare{
+background: url('../images/img.png') no-repeat;
+height: 30px;
+width: 29px;
+vertical-align:middle;
+display: inline-block;
+margin: 0 5px;
+}
+
+.fb{
+background-position: -626px -1px;	
+
+
+}
+
+.tw{
+background-position: -656px -1px;	
+}
+
+
+.be{
+background-position: -687px -2px;	
 }
